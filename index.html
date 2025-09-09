@@ -41,10 +41,20 @@
                 <a href="#" class="text-xl font-bold text-green-800">CV. Ary Gasebo</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#harga" class="text-gray-600 hover:text-green-700 font-semibold">Harga</a>
-                    <a href="#katalog" class="text-gray-600 hover:text-green-700 font-semibold">Katalog</a>
                     <a href="#kontak" class="text-gray-600 hover:text-green-700 font-semibold">Kontak</a>
                 </div>
-                <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20dengan%20layanan%20sewa%20tanaman%20Anda." target="_blank" class="bg-green-600 text-white font-bold py-2 px-5 rounded-full hover:bg-green-700 transition duration-300">Hubungi via WA</a>
+                <div class="md:hidden flex items-center">
+                     <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20dengan%20layanan%20sewa%20tanaman%20Anda." target="_blank" class="bg-green-600 text-white font-bold py-2 px-4 rounded-full hover:bg-green-700 transition duration-300 mr-4 text-sm">Hubungi via WA</a>
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-green-700 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+                 <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20dengan%20layanan%20sewa%20tanaman%20Anda." target="_blank" class="hidden md:block bg-green-600 text-white font-bold py-2 px-5 rounded-full hover:bg-green-700 transition duration-300">Hubungi via WA</a>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="#harga" class="block py-2 px-2 text-gray-600 hover:bg-green-50 rounded">Harga</a>
+                <a href="#kontak" class="block py-2 px-2 text-gray-600 hover:bg-green-50 rounded">Kontak</a>
             </div>
         </div>
     </nav>
@@ -188,11 +198,11 @@
             <h3 class="text-2xl font-bold text-green-800 mb-6 mt-12">Ukuran Sedang (Medium Size)</h3>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqP0q1xlBPMfN45SHayqac_EzrFnR1w24SPg&s" alt="Monstera Deliciosa" class="w-full h-48 object-cover">
+                    <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2020/12/10/ff90c85d-15f5-45ec-bc6e-8fa0a4b231d3.jpg" alt="Sansevieria" class="w-full h-48 object-cover">
                     <div class="p-4 flex flex-col flex-grow">
-                        <h4 class="font-bold">Monstera Deliciosa</h4>
+                        <h4 class="font-bold">Sansevieria</h4>
                         <p class="text-sm text-gray-600 mb-3 flex-grow">Medium Size</p>
-                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Monstera%20Deliciosa." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Sansevieria." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
                     </div>
                 </div>
                 <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
@@ -327,7 +337,7 @@
         <div class="container mx-auto px-6 text-center">
              <h2 class="text-center font-playfair text-3xl sm:text-4xl font-bold text-green-900 mb-4">Siap Menghijaukan Ruangan Anda?</h2>
              <p class="text-gray-600 mb-8">Hubungi kami untuk konsultasi dan pemesanan. Kami siap membantu Anda.</p>
-             <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20dengan%20layanan%20sewa%20tanaman%20Anda." target="_blank" class="bg-green-700 text-white font-bold py-3 px-10 rounded-full hover:bg-green-800 transition duration-300 text-lg">Hubungi Kami Sekarang</a>
+             <a href="https://dsakilla69-del.github.io/katalog/" target="_blank" class="bg-green-700 text-white font-bold py-3 px-10 rounded-full hover:bg-green-800 transition duration-300 text-lg">KATALOG LEBIH LENGKAP</a>
         </div>
     </section>
 
@@ -377,11 +387,17 @@
             </div>
         </div>
     </footer>
+    
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 
 </body>
 </html>
-
-
-
-
 
