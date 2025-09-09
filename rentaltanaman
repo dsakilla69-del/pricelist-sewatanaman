@@ -1,8 +1,387 @@
-<div style="position: relative; width: 100%; height: 0; padding-top: 177.7778%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGwtNewrIg/LRozAuAAyWpdQmv--l8bdw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGwtNewrIg&#x2F;LRozAuAAyWpdQmv--l8bdw&#x2F;view?utm_content=DAGwtNewrIg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Katalog Sewa Tanaman 2025 update Agustus</a> oleh Andi Aryanto
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Sewa Tanaman - CV. Ary Gasebo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg {
+            background-color: #f0fdf4; /* Light green background */
+        }
+        .plant-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .plant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Sticky Navigation Bar -->
+    <nav class="sticky-nav bg-white/80 backdrop-blur-md shadow-md">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="text-xl font-bold text-green-800">CV. Ary Gasebo</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#harga" class="text-gray-600 hover:text-green-700 font-semibold">Harga</a>
+                    <a href="#katalog" class="text-gray-600 hover:text-green-700 font-semibold">Katalog</a>
+                    <a href="#kontak" class="text-gray-600 hover:text-green-700 font-semibold">Kontak</a>
+                </div>
+                <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20dengan%20layanan%20sewa%20tanaman%20Anda." target="_blank" class="bg-green-600 text-white font-bold py-2 px-5 rounded-full hover:bg-green-700 transition duration-300">Hubungi via WA</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Header & Hero Section -->
+    <header class="hero-bg">
+        <div class="container mx-auto px-6 py-16 text-center">
+            <div class="flex justify-center mb-4">
+                 <svg class="w-20 h-20 text-green-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.5,14.5c-1.2,1.2-2.8,1.8-4.5,1.8c-1.7,0-3.3-0.6-4.5-1.8c-2.5-2.5-2.5-6.6,0-9.1C-2.3,4.2-1.2,3.3,0,3.3s2.3,0.9,3.3,1.9l1.1,1.1l1.1-1.1c1-1,2.3-1.9,3.3-1.9s2.3,0.9,3.3,1.9c2.5,2.5,2.5,6.6,0,9.1c-1.2,1.2-2.8,1.8-4.5,1.8C8.3,16.3,6.7,15.7,5.5,14.5z M2.1,6.5c-0.8-0.8-2.1-0.8-2.9,0c-0.8,0.8-0.8,2.1,0,2.9l3.6,3.6c0.4,0.4,1,0.4,1.4,0l3.6-3.6c0.8-0.8,0.8-2.1,0-2.9c-0.8-0.8-2.1-0.8-2.9,0L5,7.9L2.1,6.5z" stroke="none"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg>
+            </div>
+            <h1 class="font-playfair text-4xl sm:text-5xl md:text-6xl font-bold text-green-900">CV. ARY GASEBO</h1>
+            <p class="mt-4 text-md sm:text-lg text-green-700">Nursery and Landscape Specialist in Makassar</p>
+            <p class="text-sm text-gray-600">Berdiri Sejak 2008</p>
+            <a href="#katalog" class="mt-8 inline-block bg-green-700 text-white font-bold py-3 px-8 rounded-full hover:bg-green-800 transition duration-300">Lihat Katalog</a>
+        </div>
+    </header>
+
+    <!-- Mengapa Sewa Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="font-playfair text-3xl sm:text-4xl font-bold text-green-900">Mengapa Sewa Tanaman?</h2>
+                <p class="mt-2 text-gray-600">Nikmati keindahan tanaman sehat tanpa repot merawatnya.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <h3 class="font-semibold text-xl mb-2 text-green-800">Kemudahan</h3>
+                    <p class="text-gray-600">Pilih tanaman yang Anda inginkan, kami siapkan, antar, dan rawat secara rutin untuk Anda.</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-semibold text-xl mb-2 text-green-800">Kualitas Terjamin</h3>
+                    <p class="text-gray-600">Kami memastikan setiap tanaman dalam kondisi terbaik, sehat, dan bebas hama sebelum dikirimkan.</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-semibold text-xl mb-2 text-green-800">Jaminan Penggantian</h3>
+                    <p class="text-gray-600">Jika ada tanaman yang layu atau mati, kami akan menggantinya tanpa biaya tambahan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price List Section -->
+    <section id="harga" class="py-16 bg-green-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="font-playfair text-3xl sm:text-4xl font-bold text-green-900">Daftar Harga Sewa</h2>
+                <p class="mt-2 text-gray-600">Harga kompetitif untuk berbagai kebutuhan ruangan Anda.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Tanaman Besar -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg text-green-800">TANAMAN BESAR</h3>
+                        <p class="font-playfair text-3xl font-bold my-4 text-green-900">Rp 130.000<span class="text-lg font-normal">/Bulan</span></p>
+                        <p class="text-gray-600">Tinggi minimal 1.5 meter, cocok untuk sudut ruangan atau lobi.</p>
+                    </div>
+                    <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20untuk%20menyewa%20Tanaman%20Besar." target="_blank" class="mt-4 inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Pesan Sekarang</a>
+                </div>
+                <!-- Tanaman Sedang -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg text-green-800">TANAMAN SEDANG</h3>
+                        <p class="font-playfair text-3xl font-bold my-4 text-green-900">Rp 85.000<span class="text-lg font-normal">/Bulan</span></p>
+                        <p class="text-gray-600">Tinggi minimal 0.5 meter, ideal untuk diletakkan di lantai.</p>
+                    </div>
+                     <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20untuk%20menyewa%20Tanaman%20Sedang." target="_blank" class="mt-4 inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Pesan Sekarang</a>
+                </div>
+                <!-- Tanaman Meja -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg text-green-800">TANAMAN MEJA</h3>
+                        <p class="font-playfair text-3xl font-bold my-4 text-green-900">Rp 50.000<span class="text-lg font-normal">/Bulan</span></p>
+                        <p class="text-gray-600">Tinggi minimal 0.2 meter, mempercantik meja kerja Anda.</p>
+                    </div>
+                     <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20untuk%20menyewa%20Tanaman%20Meja." target="_blank" class="mt-4 inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Pesan Sekarang</a>
+                </div>
+                <!-- Tanaman Outdoor -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg text-green-800">TANAMAN OUTDOOR</h3>
+                        <p class="font-playfair text-3xl font-bold my-4 text-green-900">Rp 85.000<span class="text-lg font-normal">/Bulan</span></p>
+                        <p class="text-gray-600">Beragam jenis tanaman yang cocok untuk area luar ruangan.</p>
+                    </div>
+                     <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20untuk%20menyewa%20Tanaman%20Outdoor." target="_blank" class="mt-4 inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section id="katalog" class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="font-playfair text-3xl sm:text-4xl font-bold text-green-900">Katalog Tanaman</h2>
+                <p class="mt-2 text-gray-600">Pilihan beragam untuk menghijaukan ruangan Anda.</p>
+            </div>
+
+            <!-- Tanaman Besar -->
+            <h3 class="text-2xl font-bold text-green-800 mb-6 mt-12">Ukuran Besar (Large Size)</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <!-- GANTI URL INI dengan direct link dari image host seperti ImgBB -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqP0q1xlBPMfN45SHayqac_EzrFnR1w24SPg&s" alt="Monstera Deliciosa" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Monstera Deliciosa</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Large Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Monstera%20Deliciosa." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <!-- GANTI URL INI dengan direct link dari image host seperti ImgBB -->
+                    <img src="https://rentaltanaman.co.id/wp-content/uploads/2024/12/big1.jpg" alt="Pohon Palem" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Pohon Palem</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Large Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Pohon%20Palem." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <!-- GANTI URL INI dengan direct link dari image host seperti ImgBB -->
+                    <img src="https://interiordesign.id/wp-content/uploads/2023/04/7-9.jpg" alt="Fiddle Leaf Fig" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Fiddle Leaf Fig</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Large Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Fiddle%20Leaf%20Fig." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <!-- GANTI URL INI dengan direct link dari image host seperti ImgBB -->
+                    <img src="https://rentaltanaman.co.id/wp-content/uploads/2024/12/pandan-bali.jpg" alt="Pandan Bali" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Pandan Bali</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Large Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Pandan%20Bali." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tanaman Medium -->
+            <h3 class="text-2xl font-bold text-green-800 mb-6 mt-12">Ukuran Sedang (Medium Size)</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqP0q1xlBPMfN45SHayqac_EzrFnR1w24SPg&s" alt="Monstera Deliciosa" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Monstera Deliciosa</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Medium Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Monstera%20Deliciosa." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://siopen.balangankab.go.id/storage/merchant/products/2024/04/24/d8212cbe587d86c9b73827f456391b16.jpg" alt="Keladi Hias" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Keladi Hias</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Medium Size</p>
+                         <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Keladi%20Hias." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://gardeningrat.com/wp-content/uploads/2024/03/pot-Palem-Kuning-.jpg" alt="Palem Kuning" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Palem Kuning</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Medium Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Palem%20Kuning." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                 <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://sewatanaman.wordpress.com/wp-content/uploads/2015/10/06d29-img_20140127_083527.jpg" alt="Dracaena" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Dracaena</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Medium Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Dracaena." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tanaman Kecil -->
+            <h3 class="text-2xl font-bold text-green-800 mb-6 mt-12">Ukuran Kecil / Tanaman Meja (Small Size)</h3>
+             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5C-XxgeomIBbf94alUvjHJ3gWtVlnMN8jIw&s" alt="Sukulen Hias" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Sukulen Hias</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Small Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Sukulen%20Hias." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://floria.id/template/assets_admin/images/user/monstera-621.webp" alt="Monstera Mini" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Monstera Mini</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Small Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Monstera%20Mini." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://siopen.balangankab.go.id/storage/merchant/products/2024/04/24/c4ab5a7f6ea0cc3e451e9a950ceb594d.jpg" alt="Aglaonema Merah" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Aglaonema Merah</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Small Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Aglaonema%20Merah." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                 <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://siopen.balangankab.go.id/storage/merchant/products/2024/04/24/3a8292832a4a9304f5dedd0456965c72.jpg" alt="Aglaonema Hijau" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Aglaonema Hijau</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Small Size</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Aglaonema%20Hijau." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Anggrek -->
+            <h3 class="text-2xl font-bold text-green-800 mb-6 mt-12">Anggrek</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSugRsWgDbzrS76106mdfeotenWCs3Dyaqb3w&s" alt="Anggrek Bulan" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Anggrek Bulan</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Berbagai Jenis</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Anggrek%20Bulan." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8SWjlLIzcHna7rsdczvCfZsq__e3cklFxjwHLgU1dPiZgLfhckkOivVQ2leOkjiIdSc3L9eGn9Zy-Ykj8TT5B8PVcWa-2aTY_bzRrWWzQb1lLmu8jwUfbr2ixS3g89WmKzkUtgiACPb_d/s1003/WhatsApp+Image+2022-01-11+at+21.58.35.jpeg" alt="Anggrek Dendrobium" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Anggrek Dendrobium</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Berbagai Jenis</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Anggrek%20Dendrobium." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSWxgdU9g2PEwDj7VJYH-2FrhX_3Z-taGSSU0duKrX1etcdmCifNkuuhXHPGr1rmf4-PD2X83NKHBNJdtAbZBi3ByDUFehWnnSQW-JTjtpPadsyyW0034cIh-kbzpr1mTvOjjJDQn8_3E/w424-h640/61.jpg" alt="Anggrek Vanda" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Anggrek Vanda</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Berbagai Jenis</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Anggrek%20Vanda." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+                 <div class="plant-card bg-gray-50 rounded-lg overflow-hidden shadow flex flex-col">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98o-lrlp9nomv1op43" alt="Anggrek Cattleya" class="w-full h-48 object-cover">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h4 class="font-bold">Anggrek Cattleya</h4>
+                        <p class="text-sm text-gray-600 mb-3 flex-grow">Berbagai Jenis</p>
+                        <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20menyewa%20Anggrek%20Cattleya." target="_blank" class="w-full text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Sewa Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Clients Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-center font-playfair text-3xl sm:text-4xl font-bold text-green-900 mb-8">Telah Dipercaya Oleh</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center text-gray-600">
+                <p>Kampus UNISMU</p>
+                <p>Kantor Pajak Pratama</p>
+                <p>Bank OCBC</p>
+                <p>Bank Mega</p>
+                <p>Hotel Swiss-Belinn</p>
+                <p>Bank Syariah Mandiri</p>
+                <p>Adira Finance</p>
+                <p>Hotel Ibis</p>
+                <p>Ciputra Pantai Losari</p>
+                <p>Hotel Santika</p>
+                <p>Hotel Four Point</p>
+                <p>Graha Pena</p>
+                <p>Mall Nipa</p>
+                <p>Menara Bosowa</p>
+                <p>Bank BRI</p>
+                <p>Bank Mandiri</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="bg-white py-16">
+        <div class="container mx-auto px-6 text-center">
+             <h2 class="text-center font-playfair text-3xl sm:text-4xl font-bold text-green-900 mb-4">Siap Menghijaukan Ruangan Anda?</h2>
+             <p class="text-gray-600 mb-8">Hubungi kami untuk konsultasi dan pemesanan. Kami siap membantu Anda.</p>
+             <a href="https://wa.me/6282288874800?text=Halo,%20saya%20tertarik%20dengan%20layanan%20sewa%20tanaman%20Anda." target="_blank" class="bg-green-700 text-white font-bold py-3 px-10 rounded-full hover:bg-green-800 transition duration-300 text-lg">Hubungi Kami Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <!-- About -->
+                <div>
+                    <h3 class="font-bold text-xl mb-4">CV. ARY GASEBO</h3>
+                    <p class="text-green-200">Spesialis pertamanan dan penyewaan tanaman di Makassar. Kami hadir untuk memberikan solusi penghijauan yang mudah dan berkualitas untuk ruangan Anda.</p>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="font-bold text-xl mb-4">Layanan Kami</h3>
+                    <ul class="text-green-200 space-y-2">
+                        <li>Penyewaan Tanaman Indoor</li>
+                        <li>Desain & Pembuatan Taman</li>
+                        <li>Perawatan Taman Rutin</li>
+                        <li>Dekorasi Taman Panggung</li>
+                        <li>Pembuatan Kolam Ikan</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-bold text-xl mb-4">Info Kontak</h3>
+                    <ul class="text-green-200 space-y-2">
+                        <li class="flex items-center justify-center md:justify-start">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+                            <a href="https://wa.me/6282288874800" target="_blank" class="hover:text-green-400">0822 8887 4800</a>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start">
+                             <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                           <span>@supermarket_flower_makassar</span>
+                        </li>
+                        <li class="flex items-start justify-center md:justify-start">
+                             <svg class="w-5 h-5 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                            <a href="https://maps.google.com/?q=Jasa+Taman+Makassar+CV+Ary+Gasebo" target="_blank" class="hover:text-green-400">Jl. Danau Tanjung Bunga No. 88 (Dekat Polsek Tamalate), Makassar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-green-700 text-center text-green-300 text-sm">
+                <p>&copy; 2025 CV. Ary Gasebo. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
